@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2,3,4"
+    >
+    <TableRow>
+
+        <TextView android:id="@+id/resultado" android:text="@string/textoInicio" android:layout_span="4" style="@style/TextoPrincipal" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:id="@+id/buttonC" android:text="@string/buttonClear" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/buttonSigno" android:text="@string/buttonSigno" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/buttonPorcentaje" android:text="@string/buttonPorcentaje" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/buttonDivision" android:text="@string/buttonDivision" style="@style/colorBoton2" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:id="@+id/button7" android:text="@string/button7" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/button8" android:text="@string/button8" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/button9" android:text="@string/button9" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/buttonMultiplicar" android:text="@string/buttonMultiplicar" style="@style/colorBoton2" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:id="@+id/button4" android:text="@string/button4" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/button5" android:text="@string/button5" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/button6" android:text="@string/button6" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/buttonMenos" android:text="@string/buttonMenos" style="@style/colorBoton2" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:id="@+id/button1" android:text="@string/button1" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/button2" android:text="@string/button2" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/button3" android:text="@string/button3" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/buttonMas" android:text="@string/buttonMas" style="@style/colorBoton2" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:id="@+id/button0" android:text="@string/button0" android:layout_span="2" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/buttonComa" android:text="@string/buttonComa" style="@style/colorBoton1" />
+
+        <Button android:id="@+id/buttonIgual" android:text="@string/buttonIgual" style="@style/colorBoton2" />
+    </TableRow>
+
+</TableLayout>
